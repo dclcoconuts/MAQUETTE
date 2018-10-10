@@ -1,0 +1,55 @@
+.fond{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+img.poslogo{
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    z-index: 2;
+}
+
+.link {
+    position: absolute;
+    top: 20px;
+    left: 880px;
+    z-index: 2;  
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+    color:white;
+}
+
+.t1{
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    top: 391px;
+    left: 523px;
+    right:516px;
+    size: 100%;
+    z-index: 2;  
+}
+
+.t2{
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    position: absolute;
+    top: 462px;
+    left: 400px;
+    z-index: 2;  
+}
+
+img.psavoir{
+    position: absolute;
+    top: 577px;
+    left: 862px;
+    z-index: 2;   
+}
