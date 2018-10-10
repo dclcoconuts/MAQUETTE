@@ -7,39 +7,35 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Maquette Site ACS</title>
 </head>
+
 <body >
-    <header>
+    <header>      
         <nav>
-        <img class="fond" src="images/header.svg">
-        <div class="titre">
-        <!-- bloc du Menu et bloc en savoir plus-->         
-            <div class="link">
-                <ul class="h">
-                <li>ACCUEIL</li> 
-                <li>LA FORMATION</li>
-                <li>ACTUALITES</li>
-                <li>CONTACT</li>
-                <li>INSCRIPTION</li>
-                </ul>  
-            </div>
             <img class="poslogo" src="images/acs.svg">
-        </div>
+            <ul>
+                <li class="pucemenu">ACCUEIL</li> 
+                <li class="pucemenu">LA FORMATION</li>
+                <li class="pucemenu">ACTUALITES</li>
+                <li class="pucemenu">CONTACT</li>
+                <li class="pucemenu">INSCRIPTION</li>
+            </ul>            
         </nav>
- 
     </header>
     
     <main>
-    
-    
+        <div class="block1">
+            <!-- pour afficher le background-image depuis le Css -->
+        </div>
+
         <div class="block2">
-                <div class="t1">
-                    <p>Devenez développeur web en 8 mois</p>
-                </div>
-                <div class="t2">
-                    <p>Une formation qualifiante accessible sans condition de diplôme</p>
-                </div>
-                <!-- bouton En savoir plus -->
-                <img class="psavoir" src="images/ensavoirplus.svg"> 
+            <div class="t1">
+                <p>Devenez développeur web en 8 mois</p>
+            </div>
+            <div class="t2">
+                <p>Une formation qualifiante accessible sans condition de diplôme</p>
+            </div>
+            <!-- bouton En savoir plus -->
+            <img class="psavoir" src="images/ensavoirplus.svg"> 
         </div>
         
         
@@ -63,7 +59,7 @@
                 <li>Anticiper ce que seront les métiers de demain</li>
             </ul>              
         </div>
-
+        
         <div class="block4">
             <!-- Un enseignement adapté à la vie professionnelle -->
             <h2>Un enseignement adapté à la vie professionnelle</h2>
@@ -78,7 +74,7 @@
             <!-- logo + texte en dessous -->
             <p>Développer ses compétences par l'auto-formation grâce à la curiosité et aux bons outils</p>   
         </div>
-
+        
         <div class="block4">
             <!-- A chacun son métier -->
             <h2>A chacun son métier</h2>
@@ -96,7 +92,7 @@
             <!-- bouton je m'inscris -->
             <input type="button" value="Je m'inscris">
         </div>
-
+        
         <div>
             <!-- A chacun son projet -->
             <h2>A chacun son projet</h2>
@@ -112,71 +108,71 @@
                 <li>d'un réseau d'entreprises et de professionnels du numérique</li>
             </ul>
         </div>
- 
+        
         <div>
             <!-- titre professionnel -->
             <p> Nos formations Access Code School permettent d'obtenir un <strong>Titre professionnel de Niveau III</strong>
-                 de Développeur logiciel ou de Designer Web</p>
-        </div>
-
-        <div>
-            <!-- Nos centres de formation -->
-            <h2>NOS CENTRES DE FORMATION</h2>
-            <img src="" />
-            <img src="" />
-            <img src="" />
-            <img src="" />
-            <img src="" />
-            <img src="" />
-            <img src="" />
-            <img src="" />
-        </div>
-
-        <div>
-            <!-- Témoignages -->
-            <h1>TEMOIGNAGES</h1>
-            <p>J'ai intégré l'ACS pour une reconversion professionnelle, sans autre expérience que celle de ma navigation internet, mais plus 
-                motivée que jamais à enfin apprendre un métier technique qui me passionne. Aujourd'hui je suis développeuse web dans l'entreprise
-                qui m'a accueillie en stage.J'ai encore beaucoup à apprendre, mais mon parcours prouve qu'avec du travail et de la persévérance,
-                tout est possible!
-            </p>
-            <p>Julie | <strong>Promotion Wild Web Lions - Belfort</strong> | 2018</p>
-             <!-- bouton Voir tous les témoignages -->
-             <input type="button" value="Voir tous les témoignages">
-        </div>
-
-        <div>
-            <!-- contact -->
-            <form>
-                <p>Devenez un professionnel du web et rejoingnez une communautéd'élèves
-                    motivés aux parcours différents. Les inscriptions sont ouvertes.<br>
-                    Prochaines promotions courant 2018, <strong>inscrivez-vous dès maintenant !</strong>
+                de Développeur logiciel ou de Designer Web</p>
+            </div>
+            
+            <div>
+                <!-- Nos centres de formation -->
+                <h2>NOS CENTRES DE FORMATION</h2>
+                <img src="" />
+                <img src="" />
+                <img src="" />
+                <img src="" />
+                <img src="" />
+                <img src="" />
+                <img src="" />
+                <img src="" />
+            </div>
+            
+            <div>
+                <!-- Témoignages -->
+                <h1>TEMOIGNAGES</h1>
+                <p>J'ai intégré l'ACS pour une reconversion professionnelle, sans autre expérience que celle de ma navigation internet, mais plus 
+                    motivée que jamais à enfin apprendre un métier technique qui me passionne. Aujourd'hui je suis développeuse web dans l'entreprise
+                    qui m'a accueillie en stage.J'ai encore beaucoup à apprendre, mais mon parcours prouve qu'avec du travail et de la persévérance,
+                    tout est possible!
                 </p>
-                <p><label>NOM *</label> : <input type="text" name="NOM" /></p>
-                <p><label>PRENOM *</label> : <input type="text" name="PRENOM" /></p>
-                <p><label>EMAIL *</label> : <input type="text" name="EMAIL" /></p>
-                <p><label>CODE POSTAL *</label> : <input type="text" name="CODE POSTAL" /></p>
-                <p><label>VILLE *</label> : <input type="text" name="VILLE" /></p>
-                <p><label>MESSAGE *</label> : <input type="text" name="MESSAGE" /></p>
-                <input type="submit" value="Envoyer" />
-
-            </form>
-        </div>
-    </main>
-
-    <footer>
-        <!-- Insertion 4 logos -->
-        <div>
-            <img src=""/>
-            <img src=""/>
-            <img src=""/>
-            <img src=""/>
-        </div>
-        <div>
-            <p>Onlineformapro | Mentions légales</p>
-            <!-- insertion boutons réseaux sociaux -->
-        </div>
-    </footer>  
+                <p>Julie | <strong>Promotion Wild Web Lions - Belfort</strong> | 2018</p>
+                <!-- bouton Voir tous les témoignages -->
+                <input type="button" value="Voir tous les témoignages">
+            </div>
+            
+            <div>
+                <!-- contact -->
+                <form>
+                    <p>Devenez un professionnel du web et rejoingnez une communautéd'élèves
+                        motivés aux parcours différents. Les inscriptions sont ouvertes.<br>
+                        Prochaines promotions courant 2018, <strong>inscrivez-vous dès maintenant !</strong>
+                    </p>
+                    <p><label>NOM *</label> : <input type="text" name="NOM" /></p>
+                    <p><label>PRENOM *</label> : <input type="text" name="PRENOM" /></p>
+                    <p><label>EMAIL *</label> : <input type="text" name="EMAIL" /></p>
+                    <p><label>CODE POSTAL *</label> : <input type="text" name="CODE POSTAL" /></p>
+                    <p><label>VILLE *</label> : <input type="text" name="VILLE" /></p>
+                    <p><label>MESSAGE *</label> : <input type="text" name="MESSAGE" /></p>
+                    <input type="submit" value="Envoyer" />
+                    
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <!-- Insertion 4 logos -->
+            <div>
+                <img src=""/>
+                <img src=""/>
+                <img src=""/>
+                <img src=""/>
+            </div>
+            <div>
+                <p>Onlineformapro | Mentions légales</p>
+                <!-- insertion boutons réseaux sociaux -->
+            </div>
+        </footer>  
     </div>
 </body>
 </html>
