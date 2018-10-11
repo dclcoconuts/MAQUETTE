@@ -135,9 +135,9 @@ nav li:hover{
 .sousblock42{
     width: 1920px;
     height: 300px;
-    padding-left: 450px;
     display: flex;
-}
+    justify-content: center;
+ }
 .icon{
     width: 75px;
     height: 75px;  
@@ -155,9 +155,48 @@ nav li:hover{
 }
 .theicon{
     z-index: 2;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
  }
 
+ .block5{
+    width: 1920px;
+    height: 560px;
+    background-color:grey;
+    z-index: 1;
+}
+.sousblock51{
+    width: 1920px;
+    height: 50px;
+}
+.sousblock51 h2{
+    color:white; 
+    padding-top: 50px;
+    padding-left: 490px;
+    text-transform: uppercase;
+    text-align: left;
+    z-index: 2;
+}
+.sousblock52{
+    display: flex;
+}
+.sousblock53{
+    width: 500px;
+    height: 340px;
+    color:white;
+    text-align: left;
+    margin-top: 100px; 
+    margin-left: 490px;
+    font-size:16px;
+}
+.sousblock54{
+    margin-top: 90px; 
+    width: 500px;
+    height: 340px;
+}
 
+.inscription
+{
+
+}
 
