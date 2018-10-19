@@ -1,0 +1,257 @@
+/* pour pouvoir utilser une police de caractère sans l'installer */
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('../font/OpenSans-Regular.ttf');
+}
+
+/* les navigateurs appliquent des propriétés css par défaut comme des sauts de ligne */
+/* cela permet de les enlever pour repartir sur des bases saines */
+/* mais la meilleur solution consiste à faire un lien dans le fichier html avec le fichier Normalize.css */
+* {
+	margin:0;
+    padding:0;
+    font-family: opensans-regular;
+}
+
+/* pour afficher l'image de fond du block 1 et les titres*/
+.block1{
+    background-image: url("../Images/header-bg.png");
+    height: 900px;
+    width: 1920px;
+    z-index: 1;
+}
+.sousblock11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.t1{
+    color: white;
+    font-size: 40px;
+    padding-top : 400px;
+}
+.t2{
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    z-index: 2;
+}
+.psavoir{
+    padding-top: 50px;
+}
+
+/* gestion du menu */
+nav{
+    display: flex; 
+    position: fixed;
+    top: 0px;
+    width: 1920px;
+    background-color:rgba(0,0,0,0.2);
+    z-index: 2;
+ }
+nav img{
+    width: 150px;
+    height: 45px;
+    margin: auto 0 auto 360px; 
+}
+nav ul{
+    display: flex;
+    padding-left: 150px;
+}
+.pucemenu{
+    list-style-type: none;
+    color: white;
+    width: 152px;
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+}
+nav li:hover{
+    background-color: red;
+}
+
+.block3{
+    width: 1920px;
+    height: 480px;
+    background-color: white;
+    z-index: 1;
+}
+.sousblock31{
+    width: 100%;
+    height: 150px;
+}
+.sousblock31 h2{
+    color: black; 
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-align:center;
+    z-index: 2;
+}
+.sousblock32{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cotegauche{
+    width: 513px;
+    height: 100px;
+    color: black;
+    text-align: right;
+    padding-right: 50px;
+    font-size:12px;
+}
+.logoecole{
+    width: 170px;
+    height: 230px;
+}
+.cotedroit{
+    width: 513px;
+    height: 150px;
+    color: black;
+    text-align: left;
+    padding-left: 50px;
+    font-size:12px;
+}
+
+.block4{
+    width: 1920px;
+    height: 450px;
+    background-image: url("../Images/projet-collaboratif-bg.png");
+    z-index: 1;
+} 
+.sousblock41{
+    width: 1920px;
+    height: 150px;
+}
+
+.sousblock41 h2{
+    color: white; 
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.sousblock42{
+    width: 1920px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+ }
+.icon{
+    width: 75px;
+    height: 75px;  
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+}
+.txt{
+    width: 200px;
+    height: 69px;
+    color: white;
+    font-size:13px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.theicon{
+    z-index: 2;
+    /* display: flex; */
+    flex-direction: column;
+ }
+
+ .block5{
+    width: 1920px;
+    height: 560px;
+    background-color:grey;
+    z-index: 1;
+}
+.sousblock51{
+    width: 1920px;
+    height: 50px;
+}
+.sousblock51 h2{
+    color:white; 
+    padding-top: 50px;
+    padding-left: 490px;
+    text-transform: uppercase;
+    text-align: left;
+    z-index: 2;
+}
+.sousblock52{
+    display: flex;
+}
+.sousblock53{
+    width: 500px;
+    height: 340px;
+    color:white;
+    text-align: left;
+    margin-top: 100px; 
+    margin-left: 490px;
+    font-size:16px;
+}
+.sousblock54{
+    margin-top: 90px; 
+    width: 500px;
+    height: 340px;
+}
+
+.inscription
+{
+
+}
+
+
+
+/* pour afficher l'image de fond du block 6 "A chacun son projet" */
+.block6{
+    background-color: white ;
+    height: 450px;
+    width: 1920px;
+    z-index: 1;
+}
+
+/* pour afficher l'image de fond du block 7 "Titre professionnel" */
+.block7{
+    background-image: url("../Images/Projet-bg1.png");
+    height: 300px;
+    width: 1920px;
+    z-index: 1;
+}
+
+/* pour afficher l'image de fond du block 8 "Nos centres de formation" */
+.block8{
+    background-image: url("../Images/");
+    height: 838px;
+    width: 1920px;
+    z-index: 1;
+}
+
+/* pour afficher l'image de fond du block 9 "Témoignages" */
+.block9{
+    background-image: url("../Images/temoignages-bg.png");
+    height: 596px;
+    width: 1920px;
+    z-index: 1;
+}
+
+/* pour afficher l'image de fond du block 10 "Contact" */
+.block10{
+    background-image: url("../Images/contact-bg.png");
+    height: 800px;
+    width: 1920px;
+    z-index: 1;
+}
+
+/* pour afficher l'image de fond du block 11 "Contact" */
+.block11{
+    background-color: white;
+    height: 254px;
+    width: 1920px;
+    z-index: 1;
+}
+
+.foot{
+    background-color:grey;
+    height: 148px;
+    width: 1920px;
+}   

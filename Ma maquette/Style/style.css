@@ -13,9 +13,40 @@
     font-family: opensans-regular;
 }
 
+
+
+/* Tous les paragraphes sont décalés de 360px et il y a une marge en haut de 58px */
+.MiseEnPage{
+    padding-left: 360px;
+    padding-right: 340px;
+    padding-top : 58px;
+}
+
+.DisplayFlex{
+    display: flex;
+}
+
+/* titre h2 black */
+.h2Black{
+    color: black; 
+    font-size : 2em;
+    text-transform: uppercase;
+    text-align: left;
+    z-index: 2;   
+}
+
+/* titre h2 white */
+.h2White{
+    color: white; 
+    font-size : 2em;
+    text-transform: uppercase;
+    text-align: left;
+    z-index: 2;   
+}
+
 /* pour afficher l'image de fond du block 1 et les titres*/
 .block1{
-    background-image: url("../Images/header.svg");
+    background-image: url("../Images/header-bg.png");
     height: 900px;
     width: 1920px;
     z-index: 1;
@@ -25,7 +56,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
+}
 .t1{
     color: white;
     font-size: 40px;
@@ -49,7 +80,7 @@ nav{
     width: 1920px;
     background-color:rgba(0,0,0,0.2);
     z-index: 2;
- }
+}
 nav img{
     width: 150px;
     height: 45px;
@@ -77,41 +108,52 @@ nav li:hover{
     background-color: white;
     z-index: 1;
 }
-.sousblock31{
-    width: 100%;
-    height: 150px;
-}
+
 .sousblock31 h2{
     color: black; 
-    padding-top: 50px;
+    font-size: 2em;
     text-transform: uppercase;
     text-align:center;
     z-index: 2;
 }
+
 .sousblock32{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 .cotegauche{
-    width: 513px;
-    height: 100px;
+    width: 40%;
     color: black;
+    font-size: 0.8em;
     text-align: right;
-    padding-right: 50px;
-    font-size:12px;
+    padding-top: 50px;
 }
 .logoecole{
-    width: 170px;
+    width: 186px;
     height: 230px;
 }
 .cotedroit{
-    width: 513px;
-    height: 150px;
+    width: 40%;
     color: black;
+    font-size: 0.8em;
     text-align: left;
-    padding-left: 50px;
-    font-size:12px;
+    padding-top: 25px;
+}
+
+.Puceblock3 li{
+    padding-bottom: 0.7em;
+}
+
+.Puceblock3{
+    padding-top: 28px;
+    font-size: 0.9em;
+    list-style-image: url('../Images/Puce ellipse.png');
+    margin-left: 0.8em;
+    padding-left: 0.8em;
+    
+}
+
+.Puceblock3 li{
+    padding-bottom: 0.7em;
 }
 
 .block4{
@@ -121,23 +163,18 @@ nav li:hover{
     z-index: 1;
 } 
 .sousblock41{
-    width: 1920px;
-    height: 150px;
-}
-
-.sousblock41 h2{
     color: white; 
-    padding-top: 50px;
+    font-size: 1.3em;
     text-transform: uppercase;
-    text-align:center;
+    text-align: center;
+    z-index: 2;   
 }
 
 .sousblock42{
-    width: 1920px;
-    height: 300px;
     display: flex;
-    justify-content: center;
- }
+    justify-content: space-between;
+}
+
 .icon{
     width: 75px;
     height: 75px;  
@@ -155,48 +192,239 @@ nav li:hover{
 }
 .theicon{
     z-index: 2;
-    /* display: flex; */
     flex-direction: column;
- }
+}
 
- .block5{
+.block5{
     width: 1920px;
     height: 560px;
     background-color:grey;
     z-index: 1;
 }
-.sousblock51{
-    width: 1920px;
-    height: 50px;
+
+.sousblock52{
+    width: 45%;
+    color:white;
+    text-align: left;
+    font-size:0.9em;
+    margin-top: 10px;
+    margin-right: 20px;
 }
-.sousblock51 h2{
-    color:white; 
-    padding-top: 50px;
-    padding-left: 490px;
+
+.sousblock53{
+    width: 50%;
+}
+
+.BoutonInscris{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding : 7px 20px 7px 20px;
+}
+
+
+
+/******************************************************************/
+/* pour afficher l'image de fond du block 6 "A chacun son projet" */
+/******************************************************************/
+
+.block6{
+    background-color: white ;
+    height: 450px;
+    width: 1920px;
+    z-index: 1;
+}
+
+.block61{
+    width: 50%;
+}
+
+.block62{
+    width: 50%;
+    padding-left: 45px;
+}
+
+.Puceblock6{
+    padding-top: 20px;
+    font-size: 0.9em;
+    list-style-image: url('../Images/Puce ellipse.png');
+    margin-left: 0.8em;
+    padding-left: 0.8em;
+}
+
+.Puceblock6 li{
+    padding-bottom: 0.3em;
+}
+
+/* pour afficher l'image de fond du block 7 "Titre professionnel" */
+.block7{
+    background-image: url("../Images/Projet-bg1.png");
+    height: 300px;
+    width: 1920px;
+    z-index: 1;
+}
+
+.TitrePro{
+    font-size: 2.2em;
+    color: white;
+    padding-top: 87px;
+    text-align: center;
+}
+
+
+/* pour afficher l'image de fond du block 8 "Nos centres de formation" */
+.block8{
+    height: 838px;
+    width: 1920px;
+    background-color: white;
+}
+
+.sousblock82{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sousblock82 img{
+    height: 275px;
+    width: 275px;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* pour afficher l'image de fond du block 9 "Témoignages" */
+.block9{
+    background-image: url("../Images/temoignages-bg.png");
+    height: 596px;
+    width: 1920px;
+    z-index: 1;
+}
+
+.sousblock91{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sousblock92{
+    color: white;
+    font-size: 1.3em;
+    text-align: justify;
+    padding-top: 0;
+}
+
+.guillement{
+    color: white;
+    font-size: 7em;
+}
+
+.BoutonVoir{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding : 7px 10px 7px 10px;
+}
+
+/* pour afficher l'image de fond du block 10 "Contact" */
+.block10{
+    height: 787px;
+    width: 1920px;
+    background-image: url("../Images/contact-bg.png");
+}
+form h2{
+    color: white; 
     text-transform: uppercase;
     text-align: left;
     z-index: 2;
 }
-.sousblock52{
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+.haut{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.a input{
+    width: 45%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom : 1.5px solid white;
+    background-color:  transparent;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.a :nth-child(3){
+    width: 93%;
+}
+
+.b{
+    color: white;  
+    padding-top: 30px;
+}
+
+.c{
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;  
+}
+
+.d{
     display: flex;
-}
-.sousblock53{
-    width: 500px;
-    height: 340px;
-    color:white;
-    text-align: left;
-    margin-top: 100px; 
-    margin-left: 490px;
-    font-size:16px;
-}
-.sousblock54{
-    margin-top: 90px; 
-    width: 500px;
-    height: 340px;
+    margin: auto;
+    margin-top: 43px;
 }
 
-.inscription
-{
-
+.d input{
+    background-color: white;
+    color: rgb(230, 19, 71);
+    /* 1ere lettre en majuscules */
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 20px 80px 20px 80px;
 }
 
+textarea{
+    height: 200px;
+    width: 100%;
+    border : 1.5px solid white;
+    background-color:  transparent;
+}
+
+/* pour afficher l'image de fond du block 11 "Logos" */
+.block11{
+    height: 254px;
+    width: 1920px;
+    background-color: white;
+    
+}
+
+.block11Logos{
+    display: flex;
+    
+}
+
+.block11Logos img{
+    padding-top: 35px;
+    margin: auto;
+}
+
+
+footer{
+    background-color:grey;
+    height: 148px;
+    width: 1920px;
+    color: white;
+}   
